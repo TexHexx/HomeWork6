@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HomeWork6.cpp" />
+    <ClCompile Include="lc_ReverseLinkedList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BJ.h" />
+    <ClInclude Include="lc_AddTwoNumbers.h" />
+    <ClInclude Include="lc_ReverseLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

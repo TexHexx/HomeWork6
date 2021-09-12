@@ -2,10 +2,46 @@
 //
 
 #include <iostream>
+#include "lc_ReverseLinkedList.h"
+
+std::ostream& endll(std::ostream& os) {
+	os << '\n' << '\n';
+	os.flush();
+	return os;
+}
+
+
+int getNumber() {
+	int num;
+	while (true)
+	{
+		std::cout << "Enter number: ";
+		std::cin >> num;
+		if (std::cin.fail())
+		{
+			std::cin.clear();
+			std::cin.ignore(INT_MAX, '\n');
+			std::cout << "String is not a number number, lets try again" << std::endl;
+			continue;
+		}
+		break;
+	}
+	return num;
+};
+
+void FirstTask() {
+	std::cout << getNumber();
+};
+
+void SecondTask() {
+	std::cout << "Hello" << endll;
+	std::cout << "Bye" << endll;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	FirstTask();
+	SecondTask();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -18,5 +18,19 @@
     <ClCompile Include="HomeWork6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lc_ReverseLinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lc_AddTwoNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lc_ReverseLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
